@@ -3,21 +3,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <div>
-        <h2><a href="/"> Home </a></h2>
+        <form action="/" method="GET">
+            <button> Home </button>
+        </form>
     </div>
     <div>
-        <h2><a href="/aboutUs">Tentang Kami</a></h2>
-    </div>
-    <div>
-        <h2><a href="/article">Artikel</a></h2>
-    </div>
-    <div>
-        <h2><a href="/register">Daftar</a></h2>
+        <p> Ini tentang kami </p>
     </div>
 </body>
 </html>
